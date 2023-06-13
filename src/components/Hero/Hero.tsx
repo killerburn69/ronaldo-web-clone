@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "./hero.css"
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import {BsArrowDown} from 'react-icons/bs'
