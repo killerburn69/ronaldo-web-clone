@@ -1,0 +1,21 @@
+.partner-container{
+    padding: 64px 0px;
+}
+.partner{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.partner-image{
+    width: calc(100%/10);
+    cursor: pointer;
+}
+@media only screen and (max-width:600px){
+    .partner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .partner-image{
+        width: calc(100%/2);
+    }
+}
