@@ -7,7 +7,7 @@
     justify-content:end;
 }
 .aboutme-image img{
-    max-width: 60%;
+    max-width: 80%;
     object-fit: cover;
 }
 .aboutme-info{

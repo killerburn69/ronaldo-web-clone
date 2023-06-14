@@ -1,0 +1,36 @@
+.experience{
+    margin-bottom: 112px;
+}
+.experience-heading{
+    color: var(--text-color-primary);
+    margin-bottom: 30px;
+}
+.experience-item{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.experience-icon{
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    background-color: var(--text-color-primary);
+    display: flex;
+    color: var(--text-color-white);
+    justify-content: center;
+    align-items: center;
+}
+.experience-info .year{
+    color: var(--text-color-primary);
+}
+.experience-info .title,
+.experience-info .heading{
+    margin-bottom: 8px;
+}
+.experience-info .desc{
+    margin-bottom: 16px;
+    color: var(--text-color-paragraph);
+}

@@ -1,0 +1,27 @@
+.project-total-container{
+    padding: 0 48px;
+}
+.project-total{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+.project-total__box{
+    padding: 30px 20px;
+    background-color: var(--text-color-white);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+.project-total__heading{
+    color: var(--text-color-primary);
+}
+.project-total__title{
+    color: var(--text-color-paragraph);
+}
+@media only screen and (max-width:739px){
+    .project-total{
+       
+        grid-template-columns: 1fr;
+        
+    }
+}

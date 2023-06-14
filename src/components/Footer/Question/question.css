@@ -1,0 +1,15 @@
+.question-footer__heading{
+    margin-bottom: 40px;
+    color: var(--text-color-white);
+    font-size: 25px;
+}
+.question-footer__info--item{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.question-footer__info--icon{
+    width: 100%;
+    font-size: 20px;
+}
