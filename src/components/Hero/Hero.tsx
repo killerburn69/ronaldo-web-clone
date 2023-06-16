@@ -21,9 +21,11 @@ const Hero = () => {
                 </span> 
             </h2>
         </div>
-        <div className='hero-scroll'>
+        <a href="#resume" className='hero-scroll'>
             <BsArrowDown size={20} color='#3e64ff' className='icon-scroll'/>
-        </div>
+        </a>
+        {/* <div className='hero-scroll'>
+        </div> */}
     </div>
   )
 }
