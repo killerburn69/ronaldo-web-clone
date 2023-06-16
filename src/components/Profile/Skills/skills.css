@@ -17,8 +17,13 @@
     grid-template-columns: repeat(2,1fr);
     gap: 30px;
 }
+@media only screen and (max-width:740px){
+    .skills-straight-progress{
+        grid-template-columns: 1fr;
+    }
+}
 @media only screen and (max-width:1024px){
     .skills-progress{
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(300px,1fr);
     }
 }

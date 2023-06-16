@@ -1,14 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {FaGift} from 'react-icons/fa'
 import { arrayExperience } from '../../../dummydata/profile'
 import './experience.css'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 const Experience = () => {
+    useEffect(()=>{
+        Aos.init({duration:800})
+    },[])
   return (
     <div className='experience' id='experience'>
-        <h1 className='experience-heading'>Experience</h1>
+        <h1 className='experience-heading' data-aos="fade-up">Experience</h1>
         <div className='experience-list'>
             {arrayExperience.map((item,index)=>(
-                <div className='experience-item' key={index}>
+                <div data-aos="fade-up" className='experience-item' key={index}>
                     <div className='experience-icon'>
                         <FaGift className='icon' size={20}/>
                     </div>

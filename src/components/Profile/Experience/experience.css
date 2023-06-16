@@ -29,8 +29,15 @@
 .experience-info .title,
 .experience-info .heading{
     margin-bottom: 8px;
+    max-width: 100%;
 }
 .experience-info .desc{
     margin-bottom: 16px;
     color: var(--text-color-paragraph);
+}
+@media only screen and (max-width:550px){
+    .experience-item{
+        /* max-width: 200px; */
+        grid-template-columns: min-content auto;
+    }
 }

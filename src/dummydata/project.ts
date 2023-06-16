@@ -52,11 +52,11 @@ export const arrayTotalProject:TotalProject[] = [
         title:"Awards"
     },
     {
-        number:"1,200",
+        number:"1200",
         title:"Complete Projects"
     },
     {
-        number:"1,200",
+        number:"1200",
         title:"Happy Customers"
     },
     {
