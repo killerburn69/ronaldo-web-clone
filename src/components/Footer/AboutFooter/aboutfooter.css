@@ -1,0 +1,24 @@
+.footer-about__heading{
+    margin-bottom: 40px;
+    color: var(--text-color-white);
+    font-size: 25px;
+}
+.footer-about__desc{
+    margin-bottom: 16px;
+}
+.footer-about__icons{
+    margin-top: 48px;
+    margin-bottom: 16px;
+    display: flex;
+    gap: 10px;
+}
+.footer-about__icons--item{
+    width: 50px;
+    height: 50px;
+    background-color:rgba(255, 255, 255, 0.1) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 25px;
+}

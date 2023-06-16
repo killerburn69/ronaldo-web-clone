@@ -1,0 +1,15 @@
+.link-footer__heading{
+    margin-bottom: 40px;
+    color: var(--text-color-white);
+    font-size: 25px;
+}
+.link-footer__links{
+    list-style: none;
+}
+.link-footer__link--item{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: var(--text-color-paragraph);
+}

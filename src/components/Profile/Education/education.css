@@ -1,0 +1,36 @@
+.education{
+    margin-bottom: 112px;
+}
+.education-heading{
+    color: var(--text-color-primary);
+    margin-bottom: 30px;
+}
+.education-item{
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.education-icon{
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+    background-color: var(--text-color-primary);
+    display: flex;
+    color: var(--text-color-white);
+    justify-content: center;
+    align-items: center;
+}
+.education-info .year{
+    color: var(--text-color-primary);
+}
+.education-info .title,
+.education-info .heading{
+    margin-bottom: 8px;
+}
+.education-info .desc{
+    margin-bottom: 16px;
+    color: var(--text-color-paragraph);
+}

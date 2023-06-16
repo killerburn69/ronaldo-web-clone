@@ -1,0 +1,26 @@
+.service-container{
+    padding:112px 0;
+}
+.service{
+    padding: 0 48px;
+    text-align: center;
+}
+.service-heading{
+    font-size: 50px;
+    margin-bottom: 24px;
+}
+.service-desc{
+    color: var(--text-color-paragraph);
+    margin-bottom: 16px;
+    padding-bottom: 48px;
+}
+.service-card{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+@media only screen and (max-width:739px){
+    .service-card{
+        grid-template-columns: 1fr;
+    }
+}

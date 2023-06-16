@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import './navbar.css'
 import { arrayNavbarLink } from '../../dummydata/navbar'
 import {FiMenu} from 'react-icons/fi'
@@ -11,6 +11,29 @@ const Navbar = (props:NavbarProps) => {
     const setActiveItemNavbar = (item:string)=>{
         setIsActive(item)
     }
+    useEffect(()=>{
+        if(0<=props.scrollTop && props.scrollTop<520){
+            setIsActive("#home")
+        }
+        if(520<= props.scrollTop && props.scrollTop<1300){
+            setIsActive('#about')
+        }
+        if(1300<=props.scrollTop && props.scrollTop<5845){
+            setIsActive('#resume')
+        }
+        if(5845<=props.scrollTop && props.scrollTop<7328){
+            setIsActive('#services')
+        }
+        if(7328<=props.scrollTop && props.scrollTop<8637){
+            setIsActive('#projects')
+        }
+        if(8637<=props.scrollTop && props.scrollTop<10033){
+            setIsActive('#myblog')
+        }
+        if(10033<=props.scrollTop){
+            setIsActive('#contact')
+        }
+    },[props.scrollTop])
   return (
     <div className={`navbar-container ${props.scrollTop > 100 ? "background" : ""}`} style={{position:`${props.scrollTop > 100 ? "fixed" : "absolute"}`}}>
         <nav className='navbar'>

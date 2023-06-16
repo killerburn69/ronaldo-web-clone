@@ -3,6 +3,14 @@ import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import AboutMe from './components/AboutMe/AboutMe';
 import ImageShow from './components/ImageShow/ImageShow';
+import Profile from './components/Profile/Profile';
+import Service from './components/Service/Service';
+import Project from './components/OurProject/Project';
+import TotalProject from './components/TotalProject/TotalProject';
+import OurBlog from './components/OurBlog/OurBlog';
+import Hire from './components/Hire/Hire';
+import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 // import logo from './logo.svg';
 // import './App.css';
 
@@ -26,6 +34,14 @@ function App() {
       <Hero/>
       <AboutMe/>
       <ImageShow/>
+      <Profile/>
+      <Service/>
+      <Project/>
+      <TotalProject/>
+      <OurBlog/>
+      <Hire/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

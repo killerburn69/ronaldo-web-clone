@@ -1,0 +1,30 @@
+.ourblog-container{
+    padding: 112px 0;
+}
+.ourblog{
+    margin: 0 20px;
+}
+.ourblog-heading{
+    font-size: 50px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.ourblog-desc{
+    color: var(--text-color-paragraph);
+    margin-bottom: 16px;
+    padding-bottom: 48px;
+    text-align: center;
+}
+.ourblog-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+}
+@media only screen and (max-width:739px){
+    .ourblog-cards{
+        grid-template-columns: 1fr;
+    }
+}

@@ -1,0 +1,20 @@
+.straight-heading{
+    margin-bottom: 10px;
+}
+.straight-progress-one{
+    width: 100%;
+    height: 10px;
+    background-color:rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.straight-progress-two{
+    height: 100%;
+    background-color: var(--text-color-primary);
+    position: relative;
+}
+.straight-progress-ratio{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
