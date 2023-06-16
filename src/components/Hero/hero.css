@@ -60,7 +60,7 @@
     transform: rotate(45deg);
 }
 .icon-scroll{
-    animation: mymove 1s ease-out forwards infinite;
+    animation: mymove 1.5s ease-out forwards infinite;
     cursor: pointer;
 }
 @keyframes mymove
