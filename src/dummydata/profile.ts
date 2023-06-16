@@ -35,7 +35,7 @@ export const arrayEducation:Education[] = [
     },
     {
         year:"2014-2015",
-        heading:"Computer Processing Systems/Computer Software",
+        heading:"Computer Processing Systems / Computer Software",
         heading_title:"Cambridge University",
         description:"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
     },

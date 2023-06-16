@@ -1,11 +1,16 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import './hire.css'
 const Hire = () => {
+  useEffect(()=>{
+    Aos.init({duration:800})
+  },[])
   return (
     <div className='hire-container'>
-        <div className="hire">
+        <div className="hire" >
             <div className='hire-overlay'></div>
-            <div className='hire-content'>
+            <div className='hire-content' data-aos="fade-up">
                 <h1 className='hire-heading'>
                     I'm <span>Available</span> for freelancing
                 </h1>

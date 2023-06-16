@@ -1,5 +1,6 @@
 .award{
     margin-bottom: 112px;
+    
 }
 .award-heading{
     color: var(--text-color-primary);
@@ -33,4 +34,10 @@
 .award-info .desc{
     margin-bottom: 16px;
     color: var(--text-color-paragraph);
+}
+@media only screen and (max-width:550px){
+    .award-item{
+        /* max-width: 200px; */
+        grid-template-columns: min-content auto;
+    }
 }
