@@ -1,5 +1,6 @@
 .profile-container{
     padding-top: 112px;
+    
 }
 .profile{
     max-width: 1110px;
@@ -7,9 +8,15 @@
     display: grid;
     grid-template-columns: min-content 1fr;
     column-gap: 200px;
+    position: relative;
 }
+
 .profile-links{
     list-style: none;
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 150px;
 }
 .profile-link-item{
     margin-bottom: 15px;
@@ -19,12 +26,22 @@
     text-decoration: none;
     color: var(--text-color-heading);
     font-weight: 700;
-   
+    display: inline-block;
+    font-size: 20px;
 }
-.profile-link-item__link:hover{
+.profile-link-item__link.active_link{
     color: var(--text-color-primary);
+    transition: all 0.2s;
+    transform: translateX(15px);
 }
-.profile-link-item__link::before{
+/* .profile-link-item:hover{
+    transition: all 0.2s ease-out;
+    transform: translateX(20px);
+} */
+/* .profile-link-item__link:hover{
+    color: var(--text-color-primary);
+} */
+.profile-link-item__link.active_link::before{
     content:"";
     position: absolute;
     width: 20px;
@@ -32,15 +49,15 @@
     background-color: var(--text-color-primary);
     top: 50%;
     left: -25px;
-    opacity: 0;
-    transform: translate3d(-50px, 0, 0);
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
     cursor: pointer;
     transition: 0.25s all ease-in-out;
 }
-.profile-link-item__link:hover:before{
+/* .profile-link-item__link:hover:before{
     opacity: 1;
     transform: translate3d(0, 0, 0);
-}
+} */
 @media only screen and (max-width:550px){
     .profile{
         grid-template-columns: 1fr;
