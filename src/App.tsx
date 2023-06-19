@@ -34,7 +34,7 @@ function App() {
       <Hero/>
       <AboutMe/>
       <ImageShow/>
-      <Profile/>
+      <Profile scrollTop={scrollTop}/>
       <Service/>
       <Project/>
       <TotalProject/>
