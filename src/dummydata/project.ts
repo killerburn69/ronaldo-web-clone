@@ -1,13 +1,13 @@
-import img1 from '../images/ourproject4.webp'
-import img2 from '../images/ourproject7.webp'
-import img3 from '../images/ourproject6.webp'
-import img4 from '../images/ourprject3.webp'
-import img5 from '../images/ourproject5.webp'
-import img6 from '../images/ourproject1.webp'
+import img1 from '../images/rensis.jpg'
+import img2 from '../images/freshauc.jpg'
+import img3 from '../images/tripfinder.jpg'
+import img4 from '../images/recipes.jpg'
+import img5 from '../images/budget.jpg'
 type Project = {
     img:string;
     title:string;
     desc:string;
+    link:string;
 }
 export type TotalProject = {
     number:string,
@@ -16,33 +16,33 @@ export type TotalProject = {
 export const arrayProject:Project[]=[
     {
         img:img1,
-        title:"Branding & Illustration Design",
-        desc:"WEB DESIGN"
+        title:"Rensis",
+        desc:"For baby and nani can connect together",
+        link:"https://github.com/killerburn69/renis-client"
     },
     {
         img:img2,
-        title:"Branding & Illustration Design",
-        desc:"WEB DESIGN"
+        title:"FresAuc E-commerce",
+        desc:"For people who want buy some item",
+        link:"https://github.com/EcommerceGroup7"
     },
     {
         img:img3,
-        title:"Branding & Illustration Design",
-        desc:"WEB DESIGN"
+        title:"Booking Hotel Website",
+        desc:"The people want book a hotel for they vacation",
+        link:"https://github.com/WebDevUTE/Hotel_Booking_MVC"
     },
     {
         img:img4,
-        title:"Branding & Illustration Design",
-        desc:"WEB DESIGN"
+        title:"Recipes App",
+        desc:"For people want find some recipes",
+        link:"https://github.com/killerburn69/recipeApp"
     },
     {
         img:img5,
-        title:"Branding & Illustration Design",
-        desc:"WEB DESIGN"
-    },
-    {
-        img:img6,
-        title:"Branding & Illustration Design",
-        desc:"WEB DESIGN"
+        title:"Budget App",
+        desc:"Personal project",
+        link:"https://github.com/killerburn69/budgetApp"
     },
     
 ]

@@ -19,7 +19,7 @@ const Card = (props:CardProps) => {
                 </div>
             </div>
         </div>
-        <div className='card-progress-month'>
+        {/* <div className='card-progress-month'>
             <div className='progress-detail'>
                 <h2>{props.skill.last_week}</h2>
                 <span>Last week</span>
@@ -31,7 +31,7 @@ const Card = (props:CardProps) => {
                 <h2>{props.skill.last_month}</h2>
                 <span>Last month</span>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }

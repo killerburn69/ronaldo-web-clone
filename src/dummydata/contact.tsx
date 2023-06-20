@@ -11,25 +11,25 @@ export const arrayContact:Contact[] = [
     {
         icon:<BsFillSignpost2Fill/>,
         title:"Address",
-        desc:"198 West 21th Street, Suite 721 New York NY 10016",
+        desc:"Ho Chi Minh City, Vietnam",
         isColorPrimary:false
     },
     {
         icon:<BsFillTelephoneFill/>,
         title:"Contact Number",
-        desc:"+ 1235 2355 98",
+        desc:"0934844649",
         isColorPrimary:true
     },
     {
         icon:<BsFillSendFill/>,
         title:"Email Address",
-        desc:"info@yoursite.com",
+        desc:"kietthetran123@gmail.com",
         isColorPrimary:true
     },
     {
         icon:<RiEarthFill/>,
         title:"Website",
-        desc:"yoursite.com",
+        desc:"https://thekiet.netlify.app/",
         isColorPrimary:true
     },
 ]
