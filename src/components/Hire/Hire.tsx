@@ -12,9 +12,9 @@ const Hire = () => {
             <div className='hire-overlay'></div>
             <div className='hire-content' data-aos="fade-up">
                 <h1 className='hire-heading'>
-                    I'm <span>Available</span> for freelancing
+                    I'm <span>Available</span> for looking job
                 </h1>
-                <p className='hire-desc'>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <p className='hire-desc'>I will do my best at work</p>
                 <button className='hire-btn'>Hire me</button>
             </div>
         </div>

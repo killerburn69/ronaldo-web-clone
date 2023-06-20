@@ -28,66 +28,18 @@ type profileLink = {
 }
 export const arrayEducation:Education[] = [
     {
-        year:"2014-2015",
-        heading:"Bachelor of Science in Computer Science",
-        heading_title:"Cambridge University",
-        description:"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-    },
-    {
-        year:"2014-2015",
-        heading:"Computer Processing Systems / Computer Software",
-        heading_title:"Cambridge University",
-        description:"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-    },
-    {
-        year:"2014-2015",
-        heading:"Diploma in Computer",
-        heading_title:"Cambridge University",
-        description:"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-    },
-    {
-        year:"2014-2015",
-        heading:"Art & Creative Director",
-        heading_title:"Cambridge University",
-        description:"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+        year:"2020-Present",
+        heading:"Information Technology",
+        heading_title:"HCMC University of Technology and Education",
+        description:"I am currently a student at a school with the best achievements and quality in training information technology engineers"
     },
 ]
 export const arrayExperience:Experience[] = [
     {
-        year:"2014-2015",
-        heading:"Software Developer",
+        year:"2020-Present",
+        heading:"Front-end Developer",
         heading_title:"Cambridge University",
-        description:"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-    },
-    {
-        year:"2014-2015",
-        heading:"Web Designer",
-        heading_title:"Cambridge University",
-        description:"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-    },
-    {
-        year:"2014-2015",
-        heading:"Web Marketing",
-        heading_title:"Cambridge University",
-        description:"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-    },
-    {
-        year:"2014-2015",
-        heading:"Art & Creative Director",
-        heading_title:"Cambridge University",
-        description:"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-    },
-    {
-        year:"2014-2015",
-        heading:"Wordpress Developer",
-        heading_title:"Cambridge University",
-        description:"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
-    },
-    {
-        year:"2017-2018",
-        heading:"UI/UX Designer",
-        heading_title:"Cambridge University",
-        description:"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
+        description:"Currently, I am focusing on learning and developing skills in Front-end Developer"
     },
 ]
 
@@ -100,12 +52,12 @@ export const arraySkillsRatio:Skills[]=[
     },
     {
         heading:"HTML",
-        ratio:"80",
+        ratio:"95",
         last_week:"28%",
         last_month:"60%"
     },
     {
-        heading:"jQuery",
+        heading:"React",
         ratio:"75",
         last_week:"28%",
         last_month:"60%"
@@ -113,33 +65,29 @@ export const arraySkillsRatio:Skills[]=[
 ]
 export const arraySkills:Skills[]=[
     {
-        heading:"Photoshop",
-        ratio:"90%",
+        heading:"Figma",
+        ratio:"45%",
     },
     {
         heading:"HTML5",
         ratio:"95%",
     },
     {
-        heading:"WordPress",
-        ratio:"70%",
-    },
-    {
-        heading:"jQuery",
-        ratio:"85%",
-    },
-    {
         heading:"CSS3",
         ratio:"90%",
     },
     {
-        heading:"SEO",
-        ratio:"80%",
+        heading:"ReactJS",
+        ratio:"75%",
+    },
+    {
+        heading:"GIT",
+        ratio:"50%",
     },
 ]
 export const arrayAward:Award[]=[
     {
-        year:"2014-2015",
+        year:"15/11/2021",
         heading:"Top 10 Web Developer",
         heading_title:"Cambridge University",
         description:"A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth."
@@ -176,9 +124,5 @@ export const arrayProfileLink:profileLink[] = [
     {
         id:"#skills",
         title:"Skills"
-    },
-    {
-        id:"#award",
-        title:"Award"
     },
 ]

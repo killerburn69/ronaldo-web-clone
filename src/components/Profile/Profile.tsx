@@ -14,17 +14,14 @@ const Profile = (props:NavbarProps) => {
         setIsActive(item)
     }
     useEffect(()=>{
-        if(1307<=props.scrollTop && props.scrollTop<2460){
+        if(1307<=props.scrollTop && props.scrollTop<1660){
             setIsActive('#education')
         }
-        if(2460<= props.scrollTop && props.scrollTop<3970){
+        if(1660<= props.scrollTop && props.scrollTop<2070){
             setIsActive('#experience')
         }
-        if(3970<= props.scrollTop && props.scrollTop<4770){
+        if(2070<= props.scrollTop){
             setIsActive('#skills')
-        }
-        if(4770<=props.scrollTop){
-            setIsActive('#award')
         }
     },[props.scrollTop])
   return (
@@ -43,7 +40,7 @@ const Profile = (props:NavbarProps) => {
                 <Education/>
                 <Experience/>
                 <Skills/>
-                <Award/>
+                {/* <Award/> */}
             </div>
         </div>
     </div>

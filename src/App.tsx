@@ -33,15 +33,15 @@ function App() {
       <Navbar scrollTop={scrollTop}/>
       <Hero/>
       <AboutMe/>
-      <ImageShow/>
+      {/* <ImageShow/> */}
       <Profile scrollTop={scrollTop}/>
-      <Service/>
+      {/* <Service/> */}
       <Project/>
-      <TotalProject/>
-      <OurBlog/>
+      {/* <TotalProject/> */}
+      {/* <OurBlog/> */}
       <Hire/>
       <Contact/>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

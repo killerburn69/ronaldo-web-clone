@@ -4,7 +4,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import {BsArrowDown} from 'react-icons/bs'
 const Hero = () => {
     const [text]= useTypewriter({
-        words:['Web Designer.', 'Developer.','Photographer.','Marketer.','Blogger.'],
+        words:['Web Designer.', 'Front-end Developer.','Photographer.'],
         loop:0,
         typeSpeed:120,
         delaySpeed:80
@@ -14,7 +14,7 @@ const Hero = () => {
     <div id='home' className='hero-container'>
         <div className='hero'>
             <h3 className='hero-heading__submain'>hey! i am</h3>
-            <h1 className='hero-heading__main'>Ronaldo Fredrickson</h1>
+            <h1 className='hero-heading__main'>Tran The Kiet</h1>
             <h2 className='hero-heading__typewriter'>I'm a <span className='text-typewriter'>{text}</span>
                 <span className='cursor-typewriter'>
                     <Cursor cursorStyle="|" cursorBlinking={false}/>

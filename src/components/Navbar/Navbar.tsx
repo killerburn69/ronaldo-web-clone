@@ -18,19 +18,13 @@ const Navbar = (props:NavbarProps) => {
         if(520<= props.scrollTop && props.scrollTop<1300){
             setIsActive('#about')
         }
-        if(1300<=props.scrollTop && props.scrollTop<5845){
+        if(1300<=props.scrollTop && props.scrollTop<2890){
             setIsActive('#resume')
         }
-        if(5845<=props.scrollTop && props.scrollTop<7328){
-            setIsActive('#services')
-        }
-        if(7328<=props.scrollTop && props.scrollTop<8637){
+        if(2890<=props.scrollTop && props.scrollTop<4460){
             setIsActive('#projects')
         }
-        if(8637<=props.scrollTop && props.scrollTop<10033){
-            setIsActive('#myblog')
-        }
-        if(10033<=props.scrollTop){
+        if(4460<=props.scrollTop){
             setIsActive('#contact')
         }
     },[props.scrollTop])
@@ -39,8 +33,8 @@ const Navbar = (props:NavbarProps) => {
         <nav className='navbar'>
             <div className='navbar-without-menu'>
                 <a href="/" className='navbar__text-logo'>
-                    <span className='navbar__text-logo__primary'>R</span>
-                    <span className={`navbar__text-logo__secondary ${props.scrollTop > 100 ? "change-text" : ""}`}>onaldo</span>
+                    <span className='navbar__text-logo__primary'>K</span>
+                    <span className={`navbar__text-logo__secondary ${props.scrollTop > 100 ? "change-text" : ""}`}>iet</span>
                 </a>     
                 <div className={`navbar-links-container ${!openMenu?"close":""}`}>
                     <ul className='navbar-links'>

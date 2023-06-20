@@ -16,16 +16,8 @@ export const arrayNavbarLink:NavbarLink[]= [
         link:"Resume"
     },
     {
-        id:"#services",
-        link:"Services"
-    },
-    {
         id:"#projects",
         link:"Projects"
-    },
-    {
-        id:"#myblog",
-        link:"My Blog"
     },
     {
         id:"#contact",

@@ -8,31 +8,26 @@ export const arrayPropertiesProfile:aboutMeProperties[] = [
     {
         id:1,
         title:"Name:",
-        description:"Ronaldo Fredrickson",
+        description:"Tran The Kiet",
     },
     {
         id:2,
         title:"Date of birth:",
-        description:"November 28, 1989",
+        description:"May 9, 2002",
     },
     {
         id:3,
         title:"Address:",
-        description:"San Francisco CA 97987 USA",
+        description:"Ho Chi Minh City, Vietnam",
     },
     {
         id:4,
-        title:"Zip code:",
-        description:"1000",
+        title:"Email:",
+        description:"kietthetran123@gmail.com",
     },
     {
         id:5,
-        title:"Email:",
-        description:"ronaldo@gmail.com",
-    },
-    {
-        id:6,
         title:"Phone:",
-        description:"+1-2234-5678-9-0",
+        description:"0934844649",
     },
 ]
